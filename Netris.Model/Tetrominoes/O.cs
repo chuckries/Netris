@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tetris.Model.Tetrominoes
+namespace Netris.Model.Tetrominoes
 {
-    public class J :  Tetromino
+    public class O : Tetromino
     {
-        static J()
+        static O()
         {
             s_blockCoordinates = new[]
             {
@@ -17,8 +17,8 @@ namespace Tetris.Model.Tetrominoes
             };
         }
 
-        public override TetrominoType Type => TetrominoType.J;
+        public override TetrominoType Type => TetrominoType.O;
 
-        public override bool IsJ() => true;
+        public override bool IsO() => true; 
     }
 }

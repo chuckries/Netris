@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tetris.Model.Tetrominoes
+namespace Netris.Model.Tetrominoes
 {
     public class I : Tetromino
     {
